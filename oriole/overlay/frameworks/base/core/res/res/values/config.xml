@@ -317,5 +317,9 @@
       <item>720</item>  <!-- sensorLocationX -->
       <item>2364</item> <!-- sensorLocationY -->
       <item>142</item>  <!-- sensorRadius -->
-    </integer-array> 
+    </integer-array>
+    
+    <!-- Fingerprint from stock ROM -->
+    <string name="config_stockFingerprint" translatable="false">google/oriole/oriole:13/TP1A.220905/8927612:user/release-keys</string>
+    
 </resources>
