@@ -15,6 +15,8 @@ TARGET_USES_BLUR := true
 # Inherit device configuration
 $(call inherit-product, device/google/raviole/aosp_oriole_64.mk)
 
+$(call inherit-product-if-exists, vendor/google/pixelparts/pixelparts.mk)
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := derp_oriole
 PRODUCT_MODEL := Pixel 6
